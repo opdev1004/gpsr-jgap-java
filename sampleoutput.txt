@@ -1,0 +1,99 @@
+input: -2.0, output: 37.0
+input: -1.75, output: 24.16016
+input: -1.5, output: 15.0625
+input: -1.25, output: 8.91016
+input: -1.0, output: 5.0
+input: -0.75, output: 2.72266
+input: -0.5, output: 1.5625
+input: -0.25, output: 1.09766
+input: 0.0, output: 1.0
+input: 0.25, output: 1.03516
+input: 0.5, output: 1.0625
+input: 0.75, output: 1.03516
+input: 1.0, output: 1.0
+input: 1.25, output: 1.09766
+input: 1.5, output: 1.5625
+input: 1.75, output: 2.72266
+input: 2.0, output: 5.0
+input: 2.25, output: 8.91016
+input: 2.5, output: 15.0625
+input: 2.75, output: 24.16016
+log4j:ERROR setFile(null,true) call failed.
+java.io.FileNotFoundException: C:\Program Files\Java\jdk-11.0.2log4j_jgap_lf.log (액세스가 거부되었습니다)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:272)
+	at org.apache.log4j.RollingFileAppender.setFile(RollingFileAppender.java:156)
+	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:151)
+	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:247)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:123)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:87)
+	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:645)
+	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:603)
+	at org.apache.log4j.PropertyConfigurator.configureRootCategory(PropertyConfigurator.java:500)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:406)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:432)
+	at org.apache.log4j.helpers.OptionConverter.selectAndConfigure(OptionConverter.java:460)
+	at org.apache.log4j.LogManager.<clinit>(LogManager.java:113)
+	at org.apache.log4j.Logger.getLogger(Logger.java:94)
+	at org.jgap.gp.GPFitnessFunction.<clinit>(GPFitnessFunction.java:29)
+	at GPSR.<init>(GPSR.java:51)
+	at GPSR.main(GPSR.java:83)
+[JGAP][20:50:04] INFO GPGenotype - Creating initial population
+[JGAP][20:50:04] INFO GPGenotype - Mem free: 20.0 MB
+[JGAP][20:50:04] INFO GPPopulation - Prototype program set
+[JGAP][20:50:04] INFO GPGenotype - Mem free after creating population: 14.0 MB
+[JGAP][20:50:04] INFO GPGenotype - Your configuration does not contain unused commands, this is good
+Depth: 1
+[JGAP][20:50:04] INFO GPGenotype - Best solution fitness: 97.75
+[JGAP][20:50:04] INFO GPGenotype - Best solution: X * (X + X)
+[JGAP][20:50:04] INFO GPGenotype - Depth of chrom: 2
+Depth: 2
+Depth: 3
+[JGAP][20:50:04] INFO GPGenotype - Best solution fitness: 87.64
+[JGAP][20:50:04] INFO GPGenotype - Best solution: ((X * X) - X) + (X * X)
+[JGAP][20:50:04] INFO GPGenotype - Depth of chrom: 3
+Depth: 4
+Depth: 5
+Depth: 6
+Depth: 7
+[JGAP][20:50:04] INFO GPGenotype - Best solution fitness: 77.28
+[JGAP][20:50:04] INFO GPGenotype - Best solution: (X * X) * (((X * X) - X) + (X - X))
+[JGAP][20:50:04] INFO GPGenotype - Depth of chrom: 4
+Depth: 8
+Depth: 9
+[JGAP][20:50:04] INFO GPGenotype - Best solution fitness: 77.11
+[JGAP][20:50:04] INFO GPGenotype - Best solution: (((X * X) - X) - (-2.0 - (X * (X + X)))) + (4.0 - 5.0)
+[JGAP][20:50:04] INFO GPGenotype - Depth of chrom: 5
+Depth: 10
+[JGAP][20:50:04] INFO GPGenotype - Best solution fitness: 49.49
+[JGAP][20:50:04] INFO GPGenotype - Best solution: (((1.0 ^ 1.0) ^ X) - X) * (-4.0 * X)
+[JGAP][20:50:04] INFO GPGenotype - Depth of chrom: 4
+Depth: 11
+Depth: 12
+Depth: 13
+Depth: 14
+Depth: 15
+[JGAP][20:50:04] INFO GPGenotype - Best solution fitness: 39.99
+[JGAP][20:50:04] INFO GPGenotype - Best solution: 3.0 + ((X * X) * ((X * X) + ((1.0 - X) - X)))
+[JGAP][20:50:04] INFO GPGenotype - Depth of chrom: 5
+Depth: 16
+[JGAP][20:50:04] INFO GPGenotype - Best solution fitness: 31.87
+[JGAP][20:50:04] INFO GPGenotype - Best solution: ((1.0 - X) + (X * X)) * ((X * X) - X)
+[JGAP][20:50:04] INFO GPGenotype - Depth of chrom: 3
+Depth: 17
+[JGAP][20:50:04] INFO GPGenotype - Best solution fitness: 20.00
+[JGAP][20:50:04] INFO GPGenotype - Best solution: (X * X) * ((X * X) + ((1.0 - X) - X))
+[JGAP][20:50:04] INFO GPGenotype - Depth of chrom: 4
+Depth: 18
+Depth: 19
+Depth: 20
+[JGAP][20:50:04] INFO GPGenotype - Best solution fitness: 3.7670135498046875E-5
+[JGAP][20:50:04] INFO GPGenotype - Best solution: (1.0 ^ 1.0) + ((X * X) * ((X * X) + ((1.0 - X) - X)))
+[JGAP][20:50:04] INFO GPGenotype - Depth of chrom: 5
+==========Finished============
+[JGAP][20:50:04] INFO GPGenotype - Best solution fitness: 3.7670135498046875E-5
+[JGAP][20:50:04] INFO GPGenotype - Best solution: (1.0 ^ 1.0) + ((X * X) * ((X * X) + ((1.0 - X) - X)))
+[JGAP][20:50:04] INFO GPGenotype - Depth of chrom: 5
