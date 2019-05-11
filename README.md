@@ -12,4 +12,4 @@ It requires all the JGAP libraries in the lib directory. It may require to add t
 
 ## Execution
 
-Run GPSR.java
+Run GPSR.java in eclipse IDE
